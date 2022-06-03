@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ include "nodejsservice.fullname" . }}
-  namespace: mynamespace
   labels:
     {{- include "nodejsservice.labels" . | nindent 4 }}
 spec:
