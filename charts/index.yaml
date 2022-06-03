@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  nodejsservice:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-03T16:20:46.0680619+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 031aa77e1b519f2ce91a52ab812d2dfa5b08e26214a38ef17a0743020968e6e5
+    name: nodejsservice
+    type: application
+    urls:
+    - nodejsservice.tgz
+    version: 0.1.0
+generated: "2022-06-03T16:20:46.0621422+05:30"
